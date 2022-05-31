@@ -1,0 +1,96 @@
+/*========================== 공통 ==========================*/
+
+*:focus { outline:none; }
+
+
+/* 전체 틀  */
+.w1180 {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+/*========================== 타이틀부 ==========================*/
+
+/* 타이틀 */
+.title_1 {
+    font-size: 34px;
+    padding-left:5px;
+    letter-spacing:-2.5px;
+    font-weight: 400;
+}
+
+/* 검색단어 */
+.search_word {
+    color:#333;  
+    font-weight: 500;
+}
+/* 검색결과 건수 */
+.search_num {
+    color:#ff3333;
+}
+
+/* 라인(상단-타이틀) */
+.con_search_title_wrap {
+    padding-top: 60px;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #4c4c4c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*========================== 검색결과 제품 ==========================*/
+
+.bset_item_list {margin:20px 0 100px;}
+.bset_item_list:after {display:block; visibility:hidden; content:""; clear:both;}
+.bset_item_list .best_item_wr {float:left; margin:50px 0 0 21px;} /*제품별 이미지 여백*/
+.bset_item_list .best_item_wr:first-child, .bset_item_list .best_item_wr:nth-child(4n+1) {margin-left:0;}
+.best_item_div {position:relative; width:279px; border:1px solid #ededed;}
+
+.best_item_img_wr {position:relative; height:237px;}
+.best_item_img_wr a {display:block; height:237px;}
+.best_item_img {position:absolute; width:100%; text-align:center; top:50%; transform:translateY(-50%);}
+.best_item_info_wr {padding:0 30px 28px;}
+
+.best_item_info_name1 {display:inline-block; width:100%; font-size:16px; color:#666; font-weight:300; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal;}
+.best_item_info_name2 {font-size:16px; color:#666; font-weight:300; margin-top:-9px;}
+.best_item_info_price {margin-top:12px; font-size:15px; color:#666;}
+.best_item_info_price strong {font-size:21px; color:#000; font-family:"LatoWeb";}
+.best_item_info_add_cart {border:0; position:absolute; width:40px; height:40px; background:url('../../images/product/add_cart.png') no-repeat; background-position:center; bottom:20px; right:20px; border:1px solid #e5e5e5;}
+
+
+/*========================== 검색결과 없을경우 멘트 ==========================*/
+
+.search-content .search-complte { border: 1px solid #fff; border-bottom: 1px solid #e1e3e6; padding: 123px 0 84px 455px; font-size: 16px; font-weight: 300; margin-bottom:100px; height:300px; background: url('../../images/search/icon_search_complete.png') no-repeat 340px 50%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

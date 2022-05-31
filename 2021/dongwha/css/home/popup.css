@@ -1,0 +1,192 @@
+@charset "UTF-8";
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 100; src: local("Noto Sans Thin"), local("NotoSans-Thin"), url(../../fonts/notoSans/eot/NotoSansKR-Thin-Hestia.eot), url(../../fonts/notoSans/eot/NotoSansKR-Thin-Hestia.eot?#iefix) format("embedded-opentype"), url(../../fonts/notoSans/woff/NotoSansKR-Thin-Hestia.woff) format("woff"), url(../../fonts/notoSans/otf/NotoSansKR-Thin-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 300; src: local("Noto Sans Light"), local("NotoSans-Light"), url(../../fonts/notoSans/eot/NotoSansKR-Light-Hestia.eot), url(../../fonts/notoSans/eot/NotoSansKR-Light-Hestia.eot?#iefix) format("embedded-opentype"), url(../../fonts/notoSans/woff/NotoSansKR-Light-Hestia.woff) format("woff"), url("../../../fonts/notoSans/woff/NotoSansKR-Light-Hestia.woff") format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 350; src: local("Noto Sans DemiLight"), local("NotoSans-DemiLight"), url(../../fonts/notoSans/eot/NotoSansKR-DemiLight-Hestia.eot), url(../../fonts/notoSans/eot/NotoSansKR-DemiLight-Hestia.eot?#iefix) format("embedded-opentype"), url(../../fonts/notoSans/woff/NotoSansKR-DemiLight-Hestia.woff) format("woff"), url(../../fonts/notoSans/otf/NotoSansKR-DemiLight-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 400; src: local("Noto Sans Regular"), local("NotoSans-Regular"), url(../../fonts/notoSans/eot/NotoSansKR-Regular-Hestia.eot), url(../../fonts/notoSans/eot/NotoSansKR-Regular-Hestia.eot?#iefix) format("embedded-opentype"), url(../../fonts/notoSans/woff/NotoSansKR-Regular-Hestia.woff) format("woff"), url(../../fonts/notoSans/otf/NotoSansKR-Regular-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 500; src: local("Noto Sans Medium"), local("NotoSans-Medium"), url(../../fonts/notoSans/eot/NotoSansKR-Medium-Hestia.eot), url(../../fonts/notoSans/eot/NotoSansKR-Medium-Hestia.eot?#iefix) format("embedded-opentype"), url(../../fonts/notoSans/woff/NotoSansKR-Medium-Hestia.woff) format("woff"), url(../../fonts/notoSans/otf/NotoSansKR-Medium-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 700; src: local("Noto Sans Bold"), local("NotoSans-Bold"), url(../../fonts/notoSans/eot/NotoSansKR-Bold-Hestia.eot), url(../../fonts/notoSans/eot/NotoSansKR-Bold-Hestia.eot?#iefix) format("embedded-opentype"), url(../../fonts/notoSans/woff/NotoSansKR-Bold-Hestia.woff) format("woff"), url(../../fonts/notoSans/otf/NotoSansKR-Bold-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 900; src: local("Noto Sans Black"), local("NotoSans-Black"), url(../../fonts/notoSans/eot/NotoSansKR-Black-Hestia.eot), url(../../fonts/notoSans/eot/NotoSansKR-Black-Hestia.eot?#iefix) format("embedded-opentype"), url(../../fonts/notoSans/woff/NotoSansKR-Black-Hestia.woff) format("woff"), url(../../fonts/notoSans/otf/NotoSansKR-Black-Hestia.otf) format("opentype"); }
+
+
+
+.popup {
+    display:none;
+    position:fixed;
+    _position:absolute;
+    top:0;
+    left:0;
+    z-index:10000;
+    width:100%;
+    height:100%
+}
+
+.popup.open {
+    display:block
+}
+
+.popup .bg {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#fff;
+    opacity:.5;
+    _filter:alpha(opacity=50)
+}
+
+#layer{
+    position:absolute;
+    top:30%;
+    left:50%;
+    width:520px;
+    margin:-150px 0 0 -194px; 
+    background:#fff;
+    box-shadow:0 0 5px #ccc;
+    border:0px solid #999;
+    border-radius: 2px;
+    line-height:20px;
+    _white-space:normal;  
+    _height:500px;    
+}
+
+.pop_con01 {
+    height:45px;
+    color:#fff;
+    padding-left: 41px;
+    border-radius:3px 3px 0 0;
+    background:#fb4546 url(../../images/home/popup_notice_ico.png) no-repeat 10px 7px;     
+    letter-spacing: -0.2px;
+}
+
+.pop_con01 .tit {
+    font-size: 15.5px;
+    font-weight: 400;
+    line-height: 44px;   
+    letter-spacing: -0.04px;
+    
+}
+
+.pop_con02 {
+    padding: 40px 35px; /*컨텐츠의 여백*/
+    _background:yellow;
+    
+}
+
+.pop_con02 .pop_tit {
+    font-size:22px;
+    font-weight: 600;
+    line-height: 25px;
+    _background:gray;
+    color:#333;        
+}
+
+.pop_con02 .pop_con {
+    margin-top:26px;
+    font-size:14.7px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    color:#777;    
+}
+
+.pop_con03 {
+    height:45px;
+    font-size:12px;    
+    border-top:1px solid #e6e6e6;
+    color:#666;    
+    padding:9px 20px 0 20px;
+}
+
+.pop_image {
+    text-align:center;    
+}
+
+
+
+/* 오늘하루 그만보기 영역 */
+.pop_con03 .pop_today_stop {
+    width:50%;
+    float:left;
+}
+
+/* 닫기버튼 영역 */
+
+.pop_con03 .pop_close {
+    width:50%;
+    float:left;    
+    display:inlin-block;
+    text-align:right;     
+    _background:yellow;    
+}
+
+.pop_con03 .text_close {
+    font-size:14px;  
+    line-height:26px;
+}
+
+
+
+
+/*--- 체크박스  ---*/
+
+input[type=checkbox] {  
+    display: none;  
+    
+}
+
+input[type=checkbox] + label{
+    display: inline-block;  
+    cursor: pointer;  
+    position: relative;    
+    margin-right: 15px;  
+    font-size: 13px;
+    _background:yellow;
+}
+
+input[type=checkbox]+ label:before {     
+    content: "";  
+    display: inline-block;  
+  
+    width: 20px;  
+    height: 20px;  
+  
+    margin-right: 10px;  
+    position: absolute;  
+    left: 0;  
+    bottom: 1px;  
+    background-color: #ccc;  
+    border-radius: 2px; 
+    border:1px solid #777;
+    _box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);     
+}
+
+input[type=checkbox]:checked + label:before { 
+    content: "\2713";  /* 체크모양 */
+    _text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);  /* 그림자모양 */
+    font-size: 17px;          
+    background:#fd393a;
+    text-align: center;  
+    line-height: 11px;
+    color:#fff;  
+    border:1px solid #e02727;
+    font-weight:900;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

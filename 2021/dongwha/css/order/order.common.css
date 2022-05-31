@@ -1,0 +1,87 @@
+ /*========================== 공통 ==========================*/
+
+/* 타이틀 */
+.title_1 {
+    font-size: 34px;
+    padding-left:5px;
+    letter-spacing:-2.5px;
+}
+
+/* 라인(타이틀) */
+.con2 {
+    margin-bottom: 65px;
+    padding-top: 60px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 단계 : 01장바구니 > 02주문/결제 > 03 완료  */
+.pageNavi {
+    display: flex;
+    align-items: center;
+    padding:5px 5px 0 0 ;
+    letter-spacing: -0.5px;
+}
+
+.pageNavi .dep1 {
+    display: flex;
+    align-items: center;
+}
+
+.pageNavi span {
+    margin: 0 10px;
+}
+
+.pageNavi .tx1 {
+    margin-right: 5px;
+    font-size: 17px;
+    font-weight: 900;
+    color: #ccc;
+}
+
+.pageNavi .tx2 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #aaa;
+}
+
+.pageNavi .dep1.on .tx1 {
+    color: #f52739;
+}
+
+.pageNavi .dep1.on .tx2 {
+    color: #333;
+}
+
+
+/* 전체 틀  */
+.w1180 {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+.w540 {
+    width: 540px;
+    margin: 0 auto;
+}
+
+
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+

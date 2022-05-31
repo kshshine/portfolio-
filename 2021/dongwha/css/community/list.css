@@ -1,0 +1,329 @@
+/*========================== 타이틀 공통사용: 수정 (내정보라인과맞충)  ==========================*/
+.sub_menu_title {
+    font-size: 32px;
+    letter-spacing: -2.5px;
+    line-height: 40px;
+    color: #333;
+    margin-bottom: 18px
+}
+
+
+/*========================== 리스트  ==========================*/
+
+.con12 .tr {
+    display: flex; 
+    background:#fff;    
+}
+
+.con12 .th {
+    width: 100%;
+    min-height: 62px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #e7e7e7;
+    font-size:15px;
+    font-weight:400;
+}
+
+.con12 .td {
+    width: 100%;
+    min-height: 61px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d7d7d7;        
+}
+.con12 .th:nth-child(1),.con12 .td:nth-child(1){
+    width: 70px;
+}
+.con12 .th:nth-child(2),.con12 .td:nth-child(2){
+    width: 645px;
+}
+.con12 .th:nth-child(3),.con12 .td:nth-child(3){
+    width: 155px;
+}
+.con12 .th:nth-child(4),.con12 .td:nth-child(4){
+    max-width: 100px;
+}
+
+.con12 .td.tal{
+    justify-content: left;
+}
+
+.con12 .td a:hover {
+    font-weight: 400;
+    text-decoration: underline;
+    color:#666;
+}
+
+
+
+
+/*========================== [멘트] ==========================*/
+
+.qa_ment {
+    border:1px solid #ddd;
+    height:auto;
+    padding-left:35px;
+    padding:22px 34px;  
+    overflow:hidden;
+ 
+}
+
+.qa_ment .ments {
+    width:100%;
+    font-size:14.5px;
+    font-weight: 400;    
+    color:#666;
+    padding-left:12px;
+    margin:2px 0;
+    background: url('../../images/community/dot.png') no-repeat 1px 11px ;  
+    letter-spacing: -0.6px;
+    border:0px solid red;
+}
+
+.qa_ment .ments_point {
+    color:#ff0000;
+    
+}
+
+/*========================== 검색영역  ==========================*/
+/* 영역설정 */
+.cont_base_area {
+    overflow:hidden;
+    display:flex;
+    margin:35px 0 17px 0;
+    
+}
+
+.search-content {
+    width:50%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.input-table {
+    margin-right:10px;        
+}
+
+
+/* 셀렉트 */
+.search-content .input-table a[class^=btn-] { 
+    float:left; 
+    display: inline-block; 
+    height: 50px; 
+    line-height: 37px; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    border: 1px solid #777576; 
+    vertical-align: middle;     
+    text-align: center;
+    margin-left: 8px; 
+    width:50%;
+}
+
+.search-content .input-table select { 
+    font-size: 15px;        
+    color: #666;
+    font-weight: 400;  
+    height: 50px; 
+    width: 135px; 
+    margin-right:px;
+    background: url(../../images/community/icon_selectArrow.png) no-repeat 95% 50%;    
+}
+
+
+.search-content .search_input {
+    width: 310px;   
+    margin-left:7px;
+    background: url('../../images/community/icon_bo_sch.png') no-repeat 95% 50%;
+}
+
+/* 인풋박스 */
+
+search2_area_wr {
+    margin-left:30px; 
+    width:310px; 
+    *height:47px;
+    overflow:hidden;    
+}
+.search2_area {}
+.search2_area .search2_input {
+    float:left; 
+    width:260px; 
+    height:50px; 
+    border:1px solid #c7c7c7;
+    border-right:0px solid #fff;         
+    font-size:16px; 
+    padding:0 2px 0 17px;   
+    font-size: 15px;        
+    color: #666;
+    font-weight: 400;      
+}
+.search2_area .search2_input:focus {
+    outline:none;
+}
+.search2_area .search2_submit {
+    position:relative; 
+    float:left; 
+    width:50px; 
+    height:50px; 
+    background:#fff;
+    border:1px solid #c7c7c7; 
+    border-left:0px solid #fff;    
+}
+.search2_area .search2_submit .search2_icon {
+    position:absolute; 
+    display:inline-block; 
+    top:14px; 
+    right:14px; 
+    width:25px; 
+    height:23px; 
+    background:url('../../images/community/icon_bo_sch.png') no-repeat;    
+}
+
+
+/*========================== [버튼] 문의하기 ==========================*/
+
+.btn_base_area {
+    width:50%;
+    display:flex;
+    align-items:center;
+}
+.btn_base_area a{
+    width: 130px;
+    height: 46px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2px;
+
+}
+.btn_base_area .red{
+    background-color: #ff5550;
+    color: #fff;
+}
+
+
+/*========================== 접수중/답변완료 ==========================*/
+
+
+/*  [ ] */
+.clamp2 {
+    font-weight:300;
+    color:#fd3827;
+    padding:0 1px;
+}
+
+.clamp3 {
+    font-weight:300;
+    color:#4b4b4b; 
+    padding:0 1px;
+}
+
+.qa_accept {
+    font-size: 15px;
+    font-weight: 500;
+    color:#fd3827; 
+}
+.reply_complete {
+    font-size: 15px;
+    font-weight: 500;
+    color:#4b4b4b; 
+}
+
+
+
+/*========================== 페이징 ==========================*/
+
+.pageNum{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.pageNum a{
+    width: 34px;
+    height: 35px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 300;
+    color: #444;
+    margin:0;
+}
+
+.pageNum a:hover{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fd413c;
+    text-decoration: underline;
+    margin:0;
+}
+
+.pageNum span{
+    display:flex;   
+    margin:0px;   
+}
+
+.pageNum .paging_number{
+     display:flex;           
+}
+
+
+.pageNum .icon_page_first {
+    background:url('../../images/myinfo/icon_page_first.png') no-repeat; 
+    width:35px;
+}
+.pageNum .icon_page_pre {
+    background:url('../../images/myinfo/icon_page_pre.png') no-repeat;
+    width:35px;
+    margin:0 14px 0 8px; 
+
+}
+.pageNum .icon_page_next {
+    background:url('../../images/myinfo/icon_page_next.png') no-repeat; 
+    width:35px;
+    margin:0 8px 0 14px;       
+}
+.pageNum .icon_page_end {
+    background:url('../../images/myinfo/icon_page_end.png') no-repeat; 
+    width:35px;
+}
+
+
+.pageNum .icon_page_first a:hover {
+    background:url('../../images/myinfo/icon_page_first_over.png') no-repeat; 
+    width:35px;
+}
+.pageNum .icon_page_pre a:hover {
+    background:url('../../images/myinfo/icon_page_pre_over.png') no-repeat; 
+    width:35px;  
+}
+.pageNum .icon_page_next a:hover {
+    background:url('../../images/myinfo/icon_page_next_over.png') no-repeat; 
+    width:35px;
+}
+.pageNum .icon_page_end a:hover {
+    background:url('../../images/myinfo/icon_page_end_over.png') no-repeat;  
+    width:35px;
+}
+
+
+
+
+
+
+
+
+
+

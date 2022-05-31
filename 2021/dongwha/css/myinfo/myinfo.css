@@ -1,0 +1,116 @@
+.con_myinfo .tr {
+    min-height: 60px;
+    display: flex;
+    border-bottom: 1px solid #d7d7d7;
+    line-height: 1.8;
+}
+
+.con_myinfo .tr:nth-child(1) {
+    border-top: 1px solid #333;
+}
+
+.con_myinfo .th {
+    width: 170px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+    text-align:center;
+    padding:18px;
+    font-weight:400;
+    color:#111;         
+}
+
+.con_myinfo .td {
+    padding: 10px;
+    padding-left: 36px;
+    display: flex;
+    align-items: center;
+    font-size:16px;
+    font-family: 'Noto Sans KR'; 
+    font-weight: 300;     
+}
+
+
+.order_detail_table td:nth-child(2){
+    width:800px;
+    padding-left:35px; 
+    font-size:16px;
+    font-family: 'Noto Sans KR'; 
+    font-weight: 300; 
+}
+
+
+
+.addr_num { 
+    line-height:25px;
+    display:inline-block;
+    background: ble;
+    padding:10px 0;
+}
+
+
+.con_myinfo input {
+    height: 40px;
+    width: 320px;
+}
+
+
+
+.bottom_btnWrap_2 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_btnWrap_2 a {
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 2px;
+}
+
+.bottom_btnWrap_2 .red {
+    background-color: #ff5550;
+    color: #fff;
+}
+
+
+
+/*========================== [ 멘트 ] ==========================*/
+
+.qa_ment {
+    border:1px solid #ddd;
+    height:auto;
+    padding-left:35px;
+    padding:22px 34px;  
+    overflow:hidden;
+    margin-bottom:30px;
+ 
+}
+
+.qa_ment .ments {
+    width:100%;
+    font-size:14.5px;
+    font-weight: 400;    
+    color:#666;
+    padding-left:12px;
+    margin:2px 0;
+    background: url('../../images/community/dot.png') no-repeat 1px 11px ;  
+    letter-spacing: -0.6px;
+    border:0px solid red;
+}
+
+.qa_ment .ments_point {
+    color:#ff0000;
+    
+}
+
+
+
+
+

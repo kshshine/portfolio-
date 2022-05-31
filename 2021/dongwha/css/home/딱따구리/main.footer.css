@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.ft {width:1200px;}
+.ft_wr {background:#292929; padding:36px 0;}
+.ft {margin:0 auto; padding:0 20px;}
+.ft_company {}
+.ft_company p {color:#888c8d; font-size:13px; line-height:20px;}
+.ft_copy {color:#888c8d; font-size:13px; margin-top:12px;}

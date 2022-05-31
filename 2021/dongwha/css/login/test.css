@@ -1,0 +1,13 @@
+
+
+
+
+.join-content .input-table td input[type=text] { height: 40px; -webkit-box-sizing: border-box; box-sizing: border-box; padding-left: 10px; }
+.join-content .input-table td input[type=text]:hover, .join-content .input-table td input[type=text]:focus { border: 1px solid #ff5550; }
+
+.join-content .input-table td .divide-line { margin: 0 9px; }
+
+.join-content .input-table td .divide-line::after { content: ''; display: inline-block; width: 7px; height: 1px; background-color: #949494; -webkit-transform: translateY(-3px); -ms-transform: translateY(-3px); transform: translateY(-3px); }
+
+.join-content .input-table a[class^=btn-] { display: inline-block; width: 120px; height: 40px; line-height: 37px; -webkit-box-sizing: border-box; box-sizing: border-box; border: 1px solid #777576; vertical-align: middle; font-size: 15px; color: #525252; font-weight: 400; text-align: center; margin-left: 8px; }
+

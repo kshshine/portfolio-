@@ -1,0 +1,104 @@
+.con_write {
+    border-top: 1px solid #333;
+}
+
+.con_write .tr {
+    min-height: 63px;
+    display: flex;
+    border-bottom: 1px solid #d7d7d7;
+    line-height: 1.8;
+}
+
+.con_write .th {
+    width: 170px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+    text-align:center;
+    padding:18px;
+    font-weight:400;
+    color:#111;         
+}
+
+.con_write .td {
+    padding: 10px;
+    padding-left: 36px;
+    display: flex;
+    align-items: center;
+    font-size:16px;
+    font-family: 'Noto Sans KR'; 
+    font-weight: 300;
+}
+
+.con_write .term {    
+    padding-left:30px;
+}
+
+
+.long_input {
+    padding:17px; 
+    width: 720px;   
+    height:40px;
+    font-size:15px;
+    font-weight: 400; 
+    color:#666;    
+    
+}
+
+.long_input2 {
+    margin:1px 0 1px 0;
+    padding:14px 17px ;  
+    width: 720px;   
+    height:300px;    
+    overflow-y:scroll; 
+    overflow-x:hidden; 
+    resize: none; 
+    font-size:15px;
+    font-weight: 400; 
+    color:#666;    
+    
+    
+    
+}
+
+
+
+
+
+/*========================== [버튼 ] ==========================*/
+
+
+.btn_area {
+    padding-top: 27px;
+    display: flex;
+    justify-content: center;        
+}
+
+.btn_area a {
+    width: 130px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 2px;
+    margin:3px;
+    
+}
+.btn_area .red {
+    background-color: #ff5550;
+    color: #fff;    
+}
+.btn_area .gray {
+    background-color: #888;
+    color: #fff;    
+}
+
+
+
+
+
+
+

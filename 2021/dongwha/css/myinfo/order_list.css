@@ -1,0 +1,474 @@
+/*========================== [ 조회 ]  ==========================*/
+
+.search_term {
+    width: 970px;
+    height: 75px;
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    padding: 23px 10px 25px 30px;
+    margin-bottom: 40px
+}
+
+.search_term .search_term_title {
+    float: left;
+    padding-top: 2px;
+    font-size:14px;
+    color:#333;
+    padding-top:4px;
+    margin-right:10px;
+}
+
+.search_term button.term.on {
+    background-color: #ee192f;
+    color: #ffffff;
+    border: 1px solid #d8162a;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.search_term button.term {
+    width: 75px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #a7a7a7;
+    font-size: 13px;
+    letter-spacing: 0;
+    color: #666;
+    font-weight: 300;
+    margin: -2px
+}
+
+.search_term .date {
+    display: inline;
+    margin-left: 210px
+}
+
+.search_term .date input {
+    width: 130px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #999
+    color:#666666;
+    font-size:14px;
+    padding:0 0 0 10px;
+}
+
+.search_term button.search {
+    width: 64px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #4b4b4b;
+    margin-left: 10px;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #fefefe;
+    font-weight: 500;
+    outline: none;
+}
+
+
+
+
+
+/*========================== 테이블 제목부분  ==========================*/
+
+.con3 .thead {    
+    letter-spacing: -1px;
+    line-height: 7px;
+    color: #000;
+    border-top: 1px solid #595959;
+    font-weight: 400; 
+    background: #f7f7f7;  
+    }
+
+.con3 .tr {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cecece;
+    text-align: center; 
+    padding: 0;
+    font-size: 15px;        
+    height:65px;  /* 타이틀너비 */   
+}
+
+.con3 .tr>div:nth-child(1) {
+    width: 170px; 
+}
+
+.con3 .tr>div:nth-child(2) {
+    width: 520px;
+}
+
+.con3 .tr>div:nth-child(3) {
+    width: 140px;
+}
+
+.con3 .tr>div:nth-child(4) {
+    width: 140px; 
+}
+
+/*========================== 테이블 내용목부분  ==========================*/
+
+.con3 .tbody {  
+    border-bottom: 1px solid #bcbcbc; 
+    overflow:hidden;
+    display: flex;
+    text-align: center;
+}
+
+.con3 .td {
+    border: 0px solid blue;
+    background: #fff;  
+    padding:0;
+    overflow:hidden;
+    float:left;
+    height: auto;  
+
+    display:flex; 
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.con3 .td:nth-child(1) {
+    width: 170px;
+    background:#f9f9f9;
+    border-right:1px solid #e7e7e7;
+}
+
+.con3 .td:nth-child(2) {
+    width: 520px;
+    border-right:1px solid #e7e7e7;    
+}
+
+.con3 .td:nth-child(3) {
+    width: 140px;
+    font-weight: 300;
+    font-size:17px;
+    text-align:center;
+    vertical-align:middle; 
+    border-right:1px solid #e7e7e7;
+    
+}
+
+.con3 .td:nth-child(4) {
+    width: 140px;
+    
+}
+
+
+
+.con3 .td:nth-child(3) span{
+    vertical-align:middle;    
+}
+
+.con3 .td:nth-child(3) span {
+    display: table-cell;
+}
+
+/* 주문수량 */
+.con3  .ea div{
+   display:flex; 
+}
+.con3 .ea {
+	display: table;
+	width: 100%;
+	height:100%;
+	text-align:center;
+}
+
+.con3 .ea span {
+	display: table-cell;
+	vertical-align:middle;
+    text-align:center;
+}
+
+/* 다시담기 */
+.ea{
+border:0px solid red; 
+}
+
+
+/* 다시담기 */
+.con3  .middle_btnWrap div{
+   display:flex; 
+}
+.con3 .middle_btnWrap {
+	display: table;
+	width: 100%;
+	height:100%;
+	text-align:center;
+}
+
+
+
+
+con3 .td {
+    font-size: 16px;
+}
+
+con3 .fz18 {
+    font-size: 18px;
+}
+
+con3 .fz18 span {
+    font-size: 15px;
+}
+
+con3 .fz25 span {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+
+
+
+/*========================== [주문상태] ==========================*/
+
+.order_state {
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 22px;
+    color: #333;
+    font-weight: 400;  
+    letter-spacing: -1px;
+    border:0px solid red; 
+    padding:9px 0;
+}
+
+/*  [ ] */
+.order_state .clamp {
+    font-weight:300;
+}
+
+.order_state .done {
+    font-size: 15px;
+    font-weight: 500;
+    color:#067ae3;
+    margin:1px 0 4px 0;
+}
+
+.order_state .waiting {
+    font-size: 15px;
+    font-weight: 500;
+    color:#3aaf00;
+    margin:1px 0 4px 0;   
+}
+
+.order_state .date_detail {
+    font-family: "LatoWeb";    
+    font-weight: 500;
+    font-size:16.5px;
+    line-height: 20px;
+    color:#000;
+}
+
+.order_state .cost {
+    font-size: 16px;
+    line-height: 22px;
+    color: #ff0000;
+    font-weight: 500;
+    font-family: "LatoWeb";
+    margin-top:-2px;
+}
+
+.total_order_cost {
+    color: #333; 
+    font-weight: 500;
+    font-size:14px;
+    margin-bottom:0px;
+}
+
+
+
+
+/*========================== [ 버튼 ] 주문상세보기/전체다시담기 ==========================*/
+
+.order_state button {
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #b3b3b3;
+    margin: 2px 0;
+    padding:0 9px;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Noto Sans KR';
+    color:#666;
+    font-weight: 400;
+}
+
+.recart { 
+
+}
+.recart a { 
+    display: block; 
+    width:105px; 
+    height: 30px; 
+    border: 1px solid #999; 
+    border-radius:2px; 
+    text-align: center;
+    line-height: 28px; 
+    font-size:13px;  
+    color: #000; 
+}
+
+/*========================== [ 페이지 ]  ==========================*/
+
+.pageNum{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.pageNum a{
+    width: 35px;
+    height: 35px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 300;
+    color: #444;
+    margin:0;
+}
+
+.pageNum a:hover{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fd413c;
+    text-decoration: underline;
+    margin:0;
+}
+
+.pageNum span{
+    display:flex;   
+    margin:0px;   
+}
+
+.pageNum .paging_number{
+     display:flex;           
+}
+
+
+.pageNum .icon_page_first {
+    background:url('../../images/myinfo/icon_page_first.png') no-repeat; 
+    width:35px;
+}
+.pageNum .icon_page_pre {
+    background:url('../../images/myinfo/icon_page_pre.png') no-repeat;
+    width:35px;
+    margin:0 14px 0 8px; 
+
+}
+.pageNum .icon_page_next {
+    background:url('../../images/myinfo/icon_page_next.png') no-repeat; 
+    width:35px;
+    margin:0 8px 0 14px;       
+}
+.pageNum .icon_page_end {
+    background:url('../../images/myinfo/icon_page_end.png') no-repeat; 
+    width:35px;
+}
+
+
+.pageNum .icon_page_first a:hover {
+    background:url('../../images/myinfo/icon_page_first_over.png') no-repeat; 
+    width:35px;
+}
+.pageNum .icon_page_pre a:hover {
+    background:url('../../images/myinfo/icon_page_pre_over.png') no-repeat; 
+    width:35px;  
+}
+.pageNum .icon_page_next a:hover {
+    background:url('../../images/myinfo/icon_page_next_over.png') no-repeat; 
+    width:35px;
+}
+.pageNum .icon_page_end a:hover {
+    background:url('../../images/myinfo/icon_page_end_over.png') no-repeat;  
+    width:35px;
+}
+
+/*========================== [주문번호/품명]  ==========================*/
+
+
+.produt_order {
+    width:100%;
+    background: #fff;
+    display: flex;
+    border:1px solid green;
+    overflow:hidden;
+    
+}
+
+
+.produt_order .image {
+    width: 116px;
+    height: 99px;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+.produt_order .image img {
+    margin-top: 14px;
+    text-align: center
+}
+
+
+.product {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    border-color: #cecece;
+    border:1px solid red;
+    text-align:left;
+    width:100%;
+    padding:0 10px;
+}
+
+
+.produt_order .order_num {
+    border:0px solid red;
+    font-weight: 600;
+    font-size: 15px;
+    color: #666;
+    font-weight: 300; 
+    padding-top:10px;
+
+}
+
+.produt_order .product_neme {
+    border:0px solid blue;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top:4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

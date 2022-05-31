@@ -1,0 +1,80 @@
+
+.con6 {
+    margin-top: 120px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.con6 .tx1 {
+    margin-bottom: 10px;
+    font-size: 29px;
+    font-weight: 500;
+	letter-spacing:-1.5px;
+}
+
+.con6 .tx2 {
+    margin: 20px 0 128px 0 ;
+    font-size: 17px;
+    font-weight: 300;
+    color: #666;
+}
+.con7{
+    margin: -70px 0 150px 0;
+    padding: 30px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.con1 .le_bullet {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #666;
+}
+
+.le_bullet {
+    padding-left: 10px;
+    position: relative;
+}
+
+.le_bullet::after {
+    content: "";
+    width: 2px;
+    height: 2px;
+    display: block;
+    background-color: #666;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+ 
+ /*========================== ¹öÆ° ==========================*/
+
+.bottom_btnWrap {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_btnWrap a {
+    width: 270px;
+    height: 70px;
+    margin: 0 5px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #ff0700;
+    border: 1px solid #ff5550;
+}
+
+.bottom_btnWrap a.red {
+    background-color: #ff5550;
+    color: #fff;
+}

@@ -1,0 +1,187 @@
+/*********************************** Content Area ***********************************/
+
+.content-wrap { display: flex; width: 1200px; letter-spacing: -1px; font-family: 'Noto Sans KR', sans-serif; height: 100%; }
+
+/** 왼쪽 오른쪽 박스 정렬**/
+.content-wrap .left-wrap { width: 600px; display: flex; flex-direction: column; }
+.content-wrap .right-wrap { width: 600px; margin-left:10px; }
+
+/** 타이틀 **/
+.content-wrap .title { font-size: 20px; padding-bottom: 8px;}
+.content-wrap .title span { color: #0085cf; }
+.content-wrap .title .more { display: inline-block; vertical-align: middle; 
+										border: 1px #0085cf solid; border-radius: 10px; 
+										padding: 0 8px; font-size: 12px; 
+										font-weight: normal; line-height: 19px;
+									    color: #238fda;
+										margin-left: 14px;
+										}
+.content-wrap .title .more a { color: #238fda; cursor:hand;   } 
+.content-wrap .title .more a:hover { text-decoration: none; }
+.content-wrap p {font-size: 13px; color: #a4a4a4; padding: 0 0 10px; }
+
+/** 공지사항 **/
+.content-wrap .left-wrap .notice-wrap { padding: 20px 39px; border: 1px #d4dbdf solid; border-radius: 18px; margin-bottom: 10px;
+															background:  url(../../images/home/bg_bbs.png) no-repeat 95% 0; }
+
+
+/** 주문현황 **/
+.content-wrap .left-wrap .order-wrap { padding: 20px 39px; border: 1px #d4dbdf solid; border-radius: 18px; margin-bottom: 10px;
+														background:  url(../../images/home/bg_bbs.png) no-repeat 95% 0; }
+
+/** 나의현황 **/
+
+.content-wrap .right-wrap .my-wrap { padding: 39px 39px; border: 1px #d4dbdf solid; border-radius: 18px;
+														background:  url(../../images/home/bg_bbs2.png) no-repeat 95% 0; }
+.content-wrap .right-wrap .my-wrap .title { font-size: 26px; font-family: 'Noto Sans KR', sans-serif; }
+.content-wrap .right-wrap .my-wrap .table {display: table; width: 100%; font-size: 18px; background: #fff; }
+.content-wrap .right-wrap .my-wrap .row {display: table-row; }
+.content-wrap .right-wrap .my-wrap .cell {display: table-cell; border-bottom: 1px solid #DDD; padding: 15px 5px; }
+.content-wrap .right-wrap .my-wrap .col1:before { content: "\2022";  color: #D71523; font-weight: bold; display: inline-block; width: 10px; margin-right:8px; }
+.content-wrap .right-wrap .my-wrap .col1 { width: 45%;}
+.content-wrap .right-wrap .my-wrap .col2 {width: 50%; text-align: right; color:#D71523; }
+.content-wrap .right-wrap .my-wrap .col3 {width: 5%; text-align: right; }
+.content-wrap .right-wrap .my-wrap .title span { color: #D71523; }
+
+
+/*********************************** Dashboard Area ***********************************/
+
+
+.content-dashboard-area { position: relative; width: 100%; height: calc(100% - 10px); background-size: 100% auto; }
+.content-dashboard-area > ul > li  
+	{
+		display: inline-block;
+		height: 309px;
+		box-sizing: border-box;
+		border:1px solid #ccc;
+		margin-right: 1.5%;
+		margin-bottom: 25px;
+	}
+
+.content-dashboard-area > ul > li > a 
+	{ 
+		display: inline-block; width: 100%; height: 100%; 
+	}
+
+.content-dashboard-area > ul > li > a > img 
+	{ 
+		width: 100%; height: 100%; 
+	}
+
+.content-dashboard-area > ul > li:first-child 
+	{ 
+		width: 39%; 
+	}
+
+.content-dashboard-area > ul > li:nth-child(2),
+.content-dashboard-area > ul > li:nth-child(3)
+	{ 
+		width: 29%; 
+	}
+
+.content-dashboard-area > ul > li:nth-child(3)
+	{ 
+		margin-right: 0 
+	}
+
+.content-dashboard-area > ul > li:nth-child(4)
+	{ 
+		width: 59%; 
+	}
+
+.content-dashboard-area > ul > li:nth-child(5)
+	{ 
+		width: 39.5%; margin-right: 0 
+	}
+
+.content-dashboard-area > div:nth-child(3) > div , .content-dashboard-area > div:nth-child(4) > div , 
+.content-dashboard-area > div:nth-child(5) > div , .content-dashboard-area > div:nth-child(6) > div , 
+.content-dashboard-area > div:nth-child(7) > div 
+	{
+		border-radius: 5px;
+		border: 1px solid #7ad2e8;
+	}
+
+.content-dashboard-area > div > div  > div {
+		background : #fff !important;
+	}	
+
+.content-dashboard-area > div:nth-child(1) >div , .content-dashboard-area > div:nth-child(2)>div , .content-dashboard-area > div:nth-child(3) >div {
+		height : 300px !important;
+	}
+
+
+/*********************************** 커스텀 칼럼 헤더 스타일 정의 ***********************************/
+
+
+#scholarTitle { color: #2c5a83 !important; }
+
+.aui-grid-scholar-header { background: #558ed5; color: #fff; }
+
+.content-dashboard-area .aui-grid-scholar-header {
+	color:#ffffff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	background: #4472c4;
+	/* 	background: -webkit-gradient(linear, left top, left bottom, from(#999999),to(#000000)); */
+	/* 	background: -webkit-linear-gradient(top, #999999, #000000); */
+	/* 	background: -moz-linear-gradient(top, #999999, #000000); */
+	/* 	background: -ms-linear-gradient(top, #999999, #000000); */
+	/* 	background: -o-linear-gradient(top, #999999, #000000); */
+	/* 	background: linear-gradient(top, #999999, #000000); */
+	}
+
+.content-dashboard-area .aui-grid-scholar-header2 {
+	color:#ffffff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	background: #548235;
+	/* 	background: -webkit-gradient(linear, left top, left bottom, from(#999999),to(#000000)); */
+	/* 	background: -webkit-linear-gradient(top, #999999, #000000); */
+	/* 	background: -moz-linear-gradient(top, #999999, #000000); */
+	/* 	background: -ms-linear-gradient(top, #999999, #000000); */
+	/* 	background: -o-linear-gradient(top, #999999, #000000); */
+	/* 	background: linear-gradient(top, #999999, #000000); */
+	}
+	/* .content-dashboard-area .aui-grid-scholar-header { background: #135603; color: #ffffff; } */
+
+
+/***************************************** MEDIA 처리 *****************************************/
+
+
+@media all and (max-width:767px) {	
+	.content-area article { padding: 10px 10px 50px; }
+	.content-dashboard-area > .content-dashboard-ul > .each-list
+	{
+		display: inline-block;
+		height: 309px;
+		width: 100%;
+		box-sizing: border-box;
+		border:1px solid #ccc;
+		margin-right: 0;
+		margin-bottom: 25px;
+	}
+}
+
+@media all and (max-width: 430px) {
+	.content-dashboard-area > div:nth-child(2) > div  {
+		height : 220px !important;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.content-dashboard-area { height: calc(100%); }
+}
+
+@media all and (max-width: 1199px) {
+	.content-dashboard-area > div:nth-child(4) > div , .content-dashboard-area > div:nth-child(5) > div, 
+	.content-dashboard-area > div:nth-child(6) > div, .content-dashboard-area > div:nth-child(7) > div
+	{ height : 300px !important; }
+}
+
+@media all and (min-width: 1200px) {
+	{ height : 350px !important; }
+}
+

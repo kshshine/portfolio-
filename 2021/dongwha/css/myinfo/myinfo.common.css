@@ -1,0 +1,145 @@
+ 
+a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+button {
+    outline: none;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: 'Noto Sans KR', "Malgun Gothic", "Dotum", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select {
+    position: relative;
+}
+
+.select::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(0, -50%) rotate(45deg);
+    pointer-events: none;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*========================== [페이지 경로] 홈> 현재페이지 ==========================*/
+
+.pageNavi_2 {
+    padding: 15px 0 12px 7px;
+    display: float; 
+    height: 52px;
+    color: #444;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: -0.5px;                  
+}
+
+.pageNavi_2 li { 
+    padding-left:0px; 
+    padding-right:6px;
+    float:left; 
+    display:block; 
+    margin-right:2px;
+    background:yello
+}
+
+.pageNavi_2 li:nth-child(2) { 
+    background-image: url('../../images/myinfo/icon_sub_nav_arrow.png');     
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+    padding-left:30px; 
+    padding-right:5px;
+    
+}
+.pageNavi_2 li:nth-child(3) { 
+    background-image: url('../../images/myinfo/icon_sub_nav_arrow.png');     
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+    padding-left:30px;
+    padding-right:5px;
+}
+
+
+.contents_full_wrap {
+    display: flex;
+    height:auto;  
+}
+
+
+/*========================== [컨텐츠영역]  ==========================*/
+
+.content_wrap {
+    width: 1010px;
+    padding-left: 40px;
+}
+
+/*========================== [타이틀]  ==========================*/
+.sub_menu_title {
+    font-size: 32px;
+    letter-spacing: -2.5px;
+    line-height: 40px;
+    color: #333;
+    margin-bottom: 33px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

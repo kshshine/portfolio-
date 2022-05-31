@@ -1,0 +1,56 @@
+@charset "UTF-8"; 
+
+/* ====================
+  공통
+====================== */
+/* checkbox */
+input[type=checkbox] { 
+    display: none; 
+}
+
+input[type=checkbox] + label { 
+    display: inline-block; margin-right: 15px; position: relative; color: #444; -webkit-transition: all 0.7s ease; transition: all 0.7s ease; font-size: 14px; font-weight: 300; color: #000000; }
+
+input[type=checkbox] + label:before { content: ""; display: inline-block; width: 16px; height: 16px; background: #fff url(../images/icon_check.png) no-repeat 0 0; background-size: 16px auto; vertical-align: middle; margin-right: 5px; position: relative; top: -1px; }
+
+input[type=checkbox]:checked + label:before { background-position-y: -16px; }
+
+input[type=checkbox]:disabled + label { opacity: 0.8; color: #111111; }
+
+input[type=checkbox]:disabled + label:before { opacity: 0.8; }
+
+input[type=checkbox]:checked:disabled + label { opacity: 0.8; color: #111111; }
+
+input[type=checkbox]:checked:disabled + label:before { opacity: 0.8; border: 1px solid #D3D3D3; }
+
+label.radio { position: relative; font-size: 16px; color: #333333; font-weight: 400; }
+
+input[type=radio] { -webkit-transform: translateY(-2px); -ms-transform: translateY(-2px); transform: translateY(-2px); background-color: #FFFF; -webkit-appearance: none; -moz-appearance: none; margin-left: 16px; border: 1px solid #979797; width: 22px; height: 22px; border-radius: 100%; position: relative; }
+
+input[type=radio]:checked { background-color: #FFFF; -webkit-appearance: none; -moz-appearance: none; margin-left: 16px; width: 22px; height: 22px; border-radius: 100%; }
+
+input[type=radio]:checked::after { content: ''; width: 14px; height: 14px; background-color: #ff5550; position: absolute; left: 3px; top: 3px; z-index: 2; border-radius: 50%; }
+
+
+/***************
+  회원가입
+****************/
+
+
+.join-content .agree-all { 
+    padding-top: 40px; 
+}
+.join-content .agree-all input[type="checkbox"] + label:before { 
+    content: ""; 
+    width: 27px; 
+    height: 27px; 
+    background: #fff url(../../images/order/icon_checkAll.png) no-repeat 0 0; 
+}
+
+.join-content .agree-all input[type="checkbox"]:checked + label:before { 
+    background-position-y: -27px;
+}
+
+.join-content .agree-all label { 
+    font-size: 20px; 
+}
