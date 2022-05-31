@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<head>
+<title>toggle menu only by css</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style> 
+#nav{margin:0; padding:0; list-style:none;display:inline;} 
+#nav li {display:inline;}
+#nav, #toggle {display:none;} 
+#toggle:checked + #nav{display: inline;}
+
+</style>
+</head>
+
+<body> 
+
+
+<label for="toggle">&#8801;</label>
+<input type="checkbox" id="toggle"/>
+
+<ul id="nav" >
+<li><a href="#">Home</a> &#10072;</li>
+<li><a href="#">Guest</a> &#10072;</li>
+<li><a href="#">Noitce</a></li>
+</ul>
+ 
+  
+</body>
+</html>
