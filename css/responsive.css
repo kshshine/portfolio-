@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+@media (max-width: 1500px) {
+}
+@media (max-width: 1300px) {
+}
+@media (max-width: 1250px) {
+}
+@media (max-width: 1150px) {
+}
+@media (max-width: 1050px) {
+	
+}
+/* Landscape tablet */
+@media (max-width: 1024px) {
+	.section .business .business-list {margin: 0 -7px;}
+	.section .business .business-list > li {padding: 0 7px;}
+} 
+
+/* portrait tablet */
+@media (max-width: 900px) {	
+
+	.section .business .business-list {margin-bottom: -14px;}
+	.section .business .business-list > li {width: 50%; }
+	.section .business .business-list > li .txt {padding: 25px 18px;}
+	.section .business .business-list > li .business-tit {padding: 10px 18px;}
+	.section .business .business-list > li .business-tit .business-name {font-size: 16px;}
+
+	.section .circle .tit {font-size: 18px;}
+	.section .circle .circle-list li {width: calc(33.333333% - 20px);margin-right: 20px;}
+	.section .circle .circle-list li .icon {margin-bottom: 15px;}
+
+} 
+
+/* Landscape phone */
+@media (max-width: 640px) {	
+
+	.main-business-area {padding: 30px 0;}
+	.main-business-area .head {margin-bottom: 25px;}
+	.main-business-area h4 {font-size: 20px;}
+	.main-business-area p {font-size: 15px;}
+
+	.section .business .business-list {margin: 0;}
+	.section .business .business-list > li {width:100%; padding: 0;}
+	.section .business .business-list > li .txt p {font-size: 14px;}
+
+	.section .circle {padding-bottom: 50px;}
+	.section .circle .circle-list {flex-wrap: wrap;margin-bottom: -20px;}
+	.section .circle .circle-list li {width: 50%;margin-right: 0;margin-bottom: 20px;}
+	.section .circle .circle-list li .icon {width: 70px;height: 70px;margin-bottom: 10px;}
+	.section .circle .circle-list li .icon img {height: 31px;}
+	.section .circle .circle-list .tit {font-size: 16px;margin-bottom: 3px;}
+	.section .circle .desc {font-size: 14px;}
+	.section .circle .circle-list.flex-wrap {margin-bottom: -20px;}
+	.section .circle .circle-list.flex-wrap li {margin-bottom: 20px;}
+
+} 
+@media (max-width: 360px) {
+}
+/* Landscape phones and down */
+@media (max-width: 320px) {
+} 

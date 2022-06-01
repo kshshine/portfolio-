@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* layout.css는 전체적인 레이아웃 스타일을 정의합니다. */ 
+
+.contain {width:100%; max-width:1780px; padding-left:30px; padding-right:30px; margin:0 auto;}
+.contain:after {content:""; display:block; clear:both;}
+#sub .contain {max-width:1260px;}

@@ -1,0 +1,39 @@
+.main-business-area {padding: 70px 0 60px;}
+.main-business-area:last-child {padding-bottom: 0;}
+.main-business-area .head {margin-bottom: 45px;}
+
+.main-business-area h3 {font-size: 25px; font-weight: 700; line-height: 1.5em; letter-spacing: -.03em;text-align: center;}
+.main-business-area p {font-size: 20px; line-height: 1.75em; letter-spacing: -.03em; font-weight: 300;}
+
+/* section */
+.section {text-align: center;}
+.section .flex-list {display: flex;flex-wrap: wrap;}
+
+.section .business {background: #f5f5f5;  font-size:16px; font-weight:300;}
+.section .business .business-list {display: flex;flex-wrap: wrap; margin: 0 -15px;}
+.section .business .business-list > li {width: 33.3%; padding: 0 15px; margin-bottom: 30px;}
+.section .business .business-list > li .in {height: 100%; border: 0px solid #ddd;border-radius:0px;box-shadow: #f2f2f2 ;  background:#fff;}
+.section .business .business-list > li .business-tit {padding: 0px; text-align:left; border-radius:0 ;}
+.section .business .business-list > li .business-tit .business-name {padding:17px 17px 10px 17px; text-align:center; font-size: 18px;font-weight: 500;line-height: 1.5em;letter-spacing: -.03em;}
+.section .business .business-list > li .txt {padding: 5px 5px 20px 5px;text-align: center; }
+.section .business .business-list > li .txt p {font-size: 16px;color: #454545;}
+
+.section .business .business-list > li a .in {display:block;}
+.section .business .business-list > li a:hover .in {border:3px solid #6295f3;}
+
+
+
+.section .circle {background: ; color: #999; padding-bottom: 120px;}
+.section .circle .tit {font-size: 20px; font-weight: 200; line-height: 1.5em; letter-spacing: -.03em;text-align: left;margin-bottom: 8px;}
+.section .circle .desc {font-size: 16px;text-align: left;margin-bottom: 20px;}
+.section .circle .circle-list {justify-content: space-between;}
+.section .circle .circle-list li {width: calc(20% - 40px); margin-right: 0px;}
+.section .circle .circle-list li:last-child {margin-right: 0;}
+.section .circle .circle-list .tit {font-size: 20px;font-weight: 500;letter-spacing: 1.5em;letter-spacing: -.03em;text-align: center;}
+.section .circle .circle-list .desc {text-align: center;line-height: 1.5em;font-weight: 400;margin-bottom: 0;}
+.section .circle .circle-list li .icon {margin: 0 auto 20px;width: 110px;height: 110px;background-color: #fff;border-radius:100%;}
+.section .circle .circle-list.flex-wrap {flex-wrap: wrap; margin-bottom: -35px;}
+.section .circle .circle-list.flex-wrap li {margin-bottom: 35px;}
+
+
+
